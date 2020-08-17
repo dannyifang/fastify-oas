@@ -118,7 +118,7 @@ declare namespace fastifyOAS {
     addModels?: boolean;
         /**
      * Path to prepend added openapi models. 
-     * @default /components/schemas/
+     * @default #/components/schemas/
      */
     modelPath?: string;
     /**
