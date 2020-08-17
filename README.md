@@ -175,7 +175,7 @@ See [Docs](/docs/README.md) for more details on the TypeScript types that you ma
 | `routePrefix`  | String  | Documentation endpoint                                                                                                                     | `/documentation` |
 | `exposeRoute`  | Boolean|Object** | If `true` the plugin will expose the documentation with the following apis: `/<routePrefix>`, `/<routePrefix>/json`, `/<routePrefix>/yaml` | `false`          |
 | `addModels`    | Boolean | If `true` adds fastify schemas as openapi models*                                                                                          | `false`          |
-| `modelRoute`   | String | Path to prepend added openapi models*                                                                                          | `/components/schemas/`          |
+| `modelRoute`   | String | Path to prepend added openapi models                                                                                                        | `/components/schemas/` |
 | `openapi`      | String  | Openapi version                                                                                                                            | '3.0.0'          |
 | `yaml`         | Boolean | If `true` returns yaml instead of json                                                                                                     | `false`          |
 | `hideUntagged` | Boolean | If `true` remove routes without tags in schema from resulting swagger file                                                                 | `false`          |
