@@ -1,7 +1,7 @@
 {
-  "name": "fastify-oas",
+  "name": "fastify-oas-nfjfixndbd",
   "version": "3.0.1",
-  "description": "Fastify OpenAPI specification generator plugin",
+  "description": "Fastify OpenAPI specification generator plugin with ref support in model exports. Based on https://github.com/SkeLLLa/fastify-oas",
   "keywords": [
     "fastify",
     "openapi",
@@ -9,13 +9,13 @@
     "oas",
     "swagger"
   ],
-  "homepage": "https://gitlab.com/m03geek/fastify-oas#README",
+  "homepage": "https://github.com/dannyifang/fastify-oas#readme",
   "bugs": {
-    "url": "https://gitlab.com/m03geek/fastify-oas/issues"
+    "url": "https://github.com/dannyifang/fastify-oas/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SkeLLLa/fastify-oas.git"
+    "url": "https://github.com/dannyifang/fastify-oas.git"
   },
   "license": "MIT",
   "author": "m03geek",
@@ -59,29 +59,29 @@
   "devDependencies": {
     "@apidevtools/swagger-parser": "^10.0.1",
     "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.2",
     "@types/fastify-static": "^2.2.1",
     "@types/jest": "^26.0.10",
-    "@types/node": "^14.0.0",
-    "@typescript-eslint/parser": "^3.9.0",
+    "@types/node": "^14.6.0",
+    "@typescript-eslint/parser": "^3.9.1",
     "eslint": "^7.7.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-sort-requires": "^2.1.0",
-    "fastify": "^3.2.0",
+    "fastify": "^3.2.1",
     "husky": "^4.2.5",
     "jest": "^26.4.0",
     "prettier": "^2.0.5",
     "prettier-plugin-packagejson": "^2.2.5",
     "pretty-quick": "^2.0.1",
-    "redoc": "^2.0.0-rc.36",
+    "redoc": "^2.0.0-rc.37",
     "replace": "^1.2.0",
     "standard-version": "^9.0.0",
-    "swagger-ui-dist": "^3.32.1",
+    "swagger-ui-dist": "^3.32.3",
     "typedoc": "^0.18.0",
-    "typedoc-plugin-markdown": "^2.4.0",
+    "typedoc-plugin-markdown": "^2.4.1",
     "typescript": "^3.9.7"
   }
 }
