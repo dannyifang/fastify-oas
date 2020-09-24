@@ -1,6 +1,6 @@
 {
   "name": "fastify-oas-nfjfixndbd",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Fastify OpenAPI specification generator plugin with ref support in model exports. Based on https://github.com/SkeLLLa/fastify-oas",
   "keywords": [
     "fastify",
